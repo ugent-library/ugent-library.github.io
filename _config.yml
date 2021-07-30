@@ -1,3 +1,17 @@
-title: "UGent library documentation"
+encoding: utf-8
+
+permalink:   /:title.html
+
+title: "UGent Library documentation"
+description: "UGent Library documentation website"
+
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
+
+exclude:
+  - README.md
+  - CNAME
+  - Gemfile.lock
+  - Gemfile
+keep_files:
+  - .git
